@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Status Dashboard</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-image-container"></div>
+
+    <div class="glass-container">
+        <h2 class="list-title">Project Status Dashboard 🚀</h2>
+
+        <div class="data-row header-row">
+            <div class="col project-col">PROJECT NAME</div>
+            <div class="col status-col">STATUS</div>
+            <div class="col owner-col">OWNER</div>
+            <div class="col progress-col">PROGRESS</div>
+        </div>
+
+        <div class="data-row" data-progress="85">
+            <div class="col project-col">
+                <span class="mobile-label">Project:</span> UI/UX Revamp
+            </div>
+            <div class="col status-col">
+                <span class="mobile-label">Status:</span> <span class="status-badge status-active">Active</span>
+            </div>
+            <div class="col owner-col">
+                <span class="mobile-label">Owner:</span> Alex Chen
+            </div>
+            <div class="col progress-col">
+                <span class="mobile-label">Progress:</span> <span class="progress-text">85%</span>
+                <div class="progress-bar-shell">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="data-row" data-progress="40">
+            <div class="col project-col">
+                <span class="mobile-label">Project:</span> API Integration
+            </div>
+            <div class="col status-col">
+                <span class="mobile-label">Status:</span> <span class="status-badge status-pending">Pending</span>
+            </div>
+            <div class="col owner-col">
+                <span class="mobile-label">Owner:</span> Maya Singh
+            </div>
+            <div class="col progress-col">
+                <span class="mobile-label">Progress:</span> <span class="progress-text">40%</span>
+                <div class="progress-bar-shell">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="data-row" data-progress="100">
+            <div class="col project-col">
+                <span class="mobile-label">Project:</span> Feature X Launch
+            </div>
+            <div class="col status-col">
+                <span class="mobile-label">Status:</span> <span class="status-badge status-complete">Complete</span>
+            </div>
+            <div class="col owner-col">
+                <span class="mobile-label">Owner:</span> Ben Carter
+            </div>
+            <div class="col progress-col">
+                <span class="mobile-label">Progress:</span> <span class="progress-text">100%</span>
+                <div class="progress-bar-shell">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
